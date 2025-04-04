@@ -11,6 +11,7 @@ This project focuses on analyzing booking data using SQL to extract meaningful i
      •	Standardized date format for analysis
 
 Key SQL Queries for Insights:
+
 1️⃣ Top 10 Customers by Revenue
 SELECT customer_name, SUM(price) AS total_spent
 FROM bookings
